@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ''''
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
@@ -43,7 +43,8 @@ layers:
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
-  - DEL
+  - SCROLL
+  - LEFT SHIFT
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,6 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - F12
+  - {t: ▽, type: trans}
   NUM:
   - '-'
   - '7'
@@ -111,7 +113,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: '0', h: LEFT SHIFT}
+  - '0'
   - '1'
   - '2'
   - '3'
@@ -132,6 +134,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
+  - {t: ▽, type: trans}
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
@@ -173,6 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,6 +224,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -229,6 +234,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,6 +314,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
+  - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
   k: TAB
