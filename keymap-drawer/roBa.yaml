@@ -43,7 +43,7 @@ layers:
   - {t: SPACE, h: NUM}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
-  - DEL
+  - {t: DEL, h: SCROLL}
   - ''
   FUNCTION:
   - {t: ▽, type: trans}
