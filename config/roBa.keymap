@@ -23,6 +23,19 @@
     //     wait-ms = <5>;
     //     tap-ms = <5>;
     // };
+
+    // While layer 6 is held (HENKAN thumb), rolling the ball left/right switches to the
+    // previous/next GlazeWM workspace (Alt+A / Alt+S). Bindings: right, left, up, down.
+    // tick: ball movement per switch, large so one roll doesn't skip several workspaces.
+    workspaces {
+        layers = <6>;
+        bindings =
+            <&kp LA(S)>,
+            <&kp LA(A)>,
+            <&none>,
+            <&none>;
+        tick = <100>;
+    };
 };
 
 / {
